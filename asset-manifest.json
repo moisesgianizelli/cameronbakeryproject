@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cameronbakeryproject/static/css/main.40459c07.css",
+    "main.js": "/cameronbakeryproject/static/js/main.7f5f01a4.js",
+    "static/media/Croissant.jpg": "/cameronbakeryproject/static/media/Croissant.b601950ec17f6cdf0e6a.jpg",
+    "static/media/award.jpg": "/cameronbakeryproject/static/media/award.f17ad3e970a7874e6f1b.jpg",
+    "static/media/quiche.jpeg": "/cameronbakeryproject/static/media/quiche.a1076aa7d96601238cd3.jpeg",
+    "static/media/staff2.jpg": "/cameronbakeryproject/static/media/staff2.104b17bf4076a685f365.jpg",
+    "static/media/pulled.jpg": "/cameronbakeryproject/static/media/pulled.b95849269b2974dbd7ec.jpg",
+    "static/media/staff4.jpg": "/cameronbakeryproject/static/media/staff4.df5e78b79388e5b41d76.jpg",
+    "static/media/staff3.jpg": "/cameronbakeryproject/static/media/staff3.b0211e200044e3d22a15.jpg",
+    "static/media/cakechoc.jpg": "/cameronbakeryproject/static/media/cakechoc.469b17b70930be8c2313.jpg",
+    "static/media/staff.jpg": "/cameronbakeryproject/static/media/staff.b1fbff7527c1d8d54da4.jpg",
+    "static/media/choccr.jpg": "/cameronbakeryproject/static/media/choccr.eb422a11d863943c94da.jpg",
+    "static/media/hamcr.jpg": "/cameronbakeryproject/static/media/hamcr.c4b4d8808f1b013531a7.jpg",
+    "static/media/logo1.png": "/cameronbakeryproject/static/media/logo1.e441d2c3a674ec2ac7df.png",
+    "static/media/chocbread.jpg": "/cameronbakeryproject/static/media/chocbread.7f93eb0727cc131ae9d4.jpg",
+    "static/media/tart.jpg": "/cameronbakeryproject/static/media/tart.908864f1db332c8ba3c6.jpg",
+    "index.html": "/cameronbakeryproject/index.html",
+    "main.40459c07.css.map": "/cameronbakeryproject/static/css/main.40459c07.css.map",
+    "main.7f5f01a4.js.map": "/cameronbakeryproject/static/js/main.7f5f01a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40459c07.css",
+    "static/js/main.7f5f01a4.js"
+  ]
+}
