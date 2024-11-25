@@ -4,7 +4,6 @@ import logo from "./../../Images/PublicImages/logo1.png";
 
 export const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -19,7 +18,9 @@ export const Navbar = () => {
       className={`navbar navbar-expand-lg ${
         scrolled ? "navbar-light bg-white shadow" : "navbar-dark bg-transparent"
       } fixed-top py-3`}
-      style={{ transition: "background-color 0.3s ease, box-shadow 0.3s ease" }}
+      style={{
+        transition: "background-color 0.3s ease, box-shadow 0.3s ease",
+      }}
     >
       <div className="container">
         {/* Brand */}

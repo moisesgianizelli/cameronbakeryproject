@@ -1,9 +1,9 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const MainContent = () => {
   return (
     <div
-      id="aboutMe"
+      id="MainContent"
       className="p-5"
       style={{
         backgroundColor: "#f8f3e9",
@@ -134,13 +134,13 @@ export const MainContent = () => {
               </div>
             </div>
 
-            <a
-              href="#menu"
+            <Link
+              to="/menu"
               className="btn main-color btn-lg btn-outline-light mt-4"
               style={{ width: "200px" }}
             >
               View Menu
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ export const ContactUs = () => {
       id="contactUs"
       className="p-5"
       style={{
-        backgroundColor: "#f8f3e9", // Warm neutral bakery-inspired color
+        backgroundColor: "#f8f3e9",
         minHeight: "100vh",
       }}
     >
@@ -66,7 +66,7 @@ export const ContactUs = () => {
                   </div>
                   <button
                     type="submit"
-                    className="btn main-color btn-lg btn-outline-dark"
+                    className="btn main-color btn-lg btn-outline-light"
                     style={{ width: "100%" }}
                   >
                     Send Message

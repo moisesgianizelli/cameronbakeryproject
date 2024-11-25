@@ -26,8 +26,8 @@ export const ExploreTopOptions = () => {
           <div className="col-md-12">
             <h1 className="display-4 fw-bold">Welcome to Cameron Bakery</h1>
             <p className="fs-4">
-              Freshly baked goods crafted with love daily. Explore our menu and
-              specials!
+              Freshly baked goods crafted with love daily. A little taste of
+              France in the heart of Cork City...
             </p>
             <div className="mt-4">
               <ul className="social list-inline">
@@ -55,7 +55,7 @@ export const ExploreTopOptions = () => {
               </ul>
             </div>
             <a
-              href="#menu"
+              href="#MainContent"
               className="btn main-color btn-lg btn-outline-light mt-4"
               style={{ width: "200px" }}
             >

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const AboutUs = () => {
   return (
@@ -111,13 +112,13 @@ export const AboutUs = () => {
               </div>
             </div>
 
-            <a
-              href="#menu"
+            <Link
+              to="/contact-us"
               className="btn main-color btn-lg btn-outline-light mt-4"
               style={{ width: "200px" }}
             >
-              View Menu
-            </a>
+              Contact Us
+            </Link>
           </div>
         </div>
       </div>
