@@ -39,7 +39,7 @@ export const MainContent = () => {
                 <div className="col-md-4">
                   <div className="card text-dark mb-3 card-hover">
                     <img
-                      src={require("./../../../Images/PublicImages/award.jpg")}
+                      src={require("./../../../Images/PublicImages/Croissant.jpg")}
                       className="card-img-top"
                       alt="Croissant"
                     />
@@ -55,20 +55,35 @@ export const MainContent = () => {
                 <div className="col-md-4">
                   <div className="card text-dark mb-3 card-hover">
                     <img
-                      src={require("./../../../Images/PublicImages/award.jpg")}
+                      src={require("./../../../Images/PublicImages/cakechoc.jpg")}
                       className="card-img-top"
                       alt="Chocolate Cake"
                     />
                     <div className="p-4 bg-white shadow rounded">
                       <h5 className="card-title">Chocolate Cake</h5>
                       <p className="card-text">
-                        Decadent, rich, and indulgent, our chocolate cake is
-                        perfect for every celebration.
+                        Our chocolate cake is perfect for every celebration.
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4">
+                  <div className="card text-dark mb-3 card-hover">
+                    <img
+                      src={require("./../../../Images/PublicImages/bread.jpg")}
+                      className="card-img-top"
+                      alt="Artisan Bread"
+                    />
+                    <div className="p-4 bg-white shadow rounded">
+                      <h5 className="card-title">Artisan Bread</h5>
+                      <p className="card-text">
+                        Baked fresh daily, our artisan bread is made with
+                        simple, wholesome ingredients.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* <div className="col-md-4">
                   <div className="card text-dark mb-3 card-hover">
                     <img
                       src={require("./../../../Images/PublicImages/award.jpg")}
@@ -115,23 +130,7 @@ export const MainContent = () => {
                       </p>
                     </div>
                   </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="card text-dark mb-3 card-hover">
-                    <img
-                      src={require("./../../../Images/PublicImages/award.jpg")}
-                      className="card-img-top"
-                      alt="Artisan Bread"
-                    />
-                    <div className="p-4 bg-white shadow rounded">
-                      <h5 className="card-title">Artisan Bread</h5>
-                      <p className="card-text">
-                        Baked fresh daily, our artisan bread is made with
-                        simple, wholesome ingredients.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                </div> */}
               </div>
             </div>
 

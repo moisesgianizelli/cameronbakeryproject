@@ -1,4 +1,15 @@
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faWhatsapp,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faMapMarkerAlt,
+  faPhone,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 
 export const Footer = () => {
   return (
@@ -14,14 +25,14 @@ export const Footer = () => {
               day.
             </p>
             <p>
-              <i className="fas fa-map-marker-alt"></i>
-              25a Washington Street West, Cork, Ireland
+              <FontAwesomeIcon icon={faMapMarkerAlt} /> 25a Washington Street
+              West, Cork, Ireland
             </p>
             <p>
-              <i className="fas fa-phone"></i> (021) 241 3977
+              <FontAwesomeIcon icon={faPhone} /> (021) 241 3977
             </p>
             <p>
-              <i className="fas fa-email"></i> cameronbakery@gmail.com
+              <FontAwesomeIcon icon={faEnvelope} /> cameronbakery@gmail.com
             </p>
           </div>
 
@@ -64,20 +75,20 @@ export const Footer = () => {
             <p>Connect with us on social media:</p>
             <div className="d-flex">
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/cameronbakery"
                 className="text-white me-3 fs-4"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa-facebook"></i>
+                <FontAwesomeIcon icon={faFacebook as any} />
               </a>
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/cameron_bakery/"
                 className="text-white me-3 fs-4"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa-instagram"></i>
+                <FontAwesomeIcon icon={faInstagram as any} />
               </a>
               <a
                 href="https://www.twitter.com"
@@ -85,7 +96,7 @@ export const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa-twitter"></i>
+                <FontAwesomeIcon icon={faWhatsapp as any} />
               </a>
             </div>
           </div>

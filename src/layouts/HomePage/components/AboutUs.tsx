@@ -31,7 +31,7 @@ export const AboutUs = () => {
             <div className="row my-5 align-items-center">
               <div className="col-md-6">
                 <img
-                  src={require("./../../../Images/PublicImages/award.jpg")}
+                  src={require("./../../../Images/PublicImages/staff.jpg")}
                   alt="Our History"
                   className="img-fluid rounded shadow"
                 />
@@ -52,7 +52,7 @@ export const AboutUs = () => {
             <div className="row my-5 align-items-center flex-md-row-reverse">
               <div className="col-md-6">
                 <img
-                  src={require("./../../../Images/PublicImages/award.jpg")}
+                  src={require("./../../../Images/PublicImages/staff2.jpg")}
                   alt="Our Mission"
                   className="img-fluid rounded shadow"
                 />
@@ -73,7 +73,7 @@ export const AboutUs = () => {
             <div className="row my-5 align-items-center">
               <div className="col-md-6">
                 <img
-                  src={require("./../../../Images/PublicImages/award.jpg")}
+                  src={require("./../../../Images/PublicImages/staff3.jpg")}
                   alt="Community"
                   className="img-fluid rounded shadow"
                 />
@@ -94,7 +94,7 @@ export const AboutUs = () => {
             <div className="row my-5 align-items-center flex-md-row-reverse">
               <div className="col-md-6">
                 <img
-                  src={require("./../../../Images/PublicImages/award.jpg")}
+                  src={require("./../../../Images/PublicImages/staff4.jpg")}
                   alt="Our Signature Creations"
                   className="img-fluid rounded shadow"
                 />
@@ -113,10 +113,10 @@ export const AboutUs = () => {
 
             <a
               href="#menu"
-              className="btn main-color btn-lg btn-outline-dark mt-3"
+              className="btn main-color btn-lg btn-outline-light mt-4"
               style={{ width: "200px" }}
             >
-              Explore Our Menu
+              View Menu
             </a>
           </div>
         </div>

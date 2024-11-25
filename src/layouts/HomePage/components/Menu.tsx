@@ -15,19 +15,19 @@ const savouryItems: MenuItem[] = [
     title: "Quiche Lorraine",
     description: "A classic savory pie with bacon.",
     price: "€5.99",
-    imageSrc: "https://via.placeholder.com/300x200?text=Quiche+Lorraine", // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/quiche.jpeg"), // Placeholder image URL
   },
   {
     title: "Cheese Croissant",
     description: "Buttery, flaky croissant with melted cheese.",
     price: "€3.49",
-    imageSrc: "https://via.placeholder.com/300x200?text=Cheese+Croissant", // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/hamcr.jpg"), // Placeholder image URL
   },
   {
-    title: "Cheese Croissant",
+    title: "Chocolat Croissant",
     description: "Buttery, flaky croissant with melted cheese.",
     price: "€3.49",
-    imageSrc: "https://via.placeholder.com/300x200?text=Cheese+Croissant", // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/choccr.jpg"), // Placeholder image URL
   },
 ];
 
@@ -36,13 +36,13 @@ const patisserieItems: MenuItem[] = [
     title: "Chocolate Eclair",
     description: "A choux pastry filled with chocolate cream.",
     price: "€4.99",
-    imageSrc: "https://via.placeholder.com/300x200?text=Chocolate+Eclair", // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/eclair.jpg"), // Placeholder image URL
   },
   {
     title: "Fruit Tart",
     description: "A sweet tart topped with fresh seasonal fruit.",
     price: "€6.99",
-    imageSrc: "https://via.placeholder.com/300x200?text=Fruit+Tart", // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/tart.jpg"), // Placeholder image URL
   },
 ];
 
@@ -51,13 +51,13 @@ const boulangerieItems: MenuItem[] = [
     title: "Baguette",
     description: "Classic French baguette with a crunchy crust.",
     price: "€2.49",
-    imageSrc: "https://via.placeholder.com/300x200?text=Baguette", // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/pulled.jpg"), // Placeholder image URL
   },
   {
     title: "Pain au Chocolat",
     description: "Delicious croissant filled with rich chocolate.",
     price: "€2.99",
-    imageSrc: "https://via.placeholder.com/300x200?text=Pain+au+Chocolat", // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/chocbread.jpg"), // Placeholder image URL
   },
 ];
 

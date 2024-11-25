@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
+import logo from "./../../Images/PublicImages/logo1.png";
 
 export const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -23,7 +24,15 @@ export const Navbar = () => {
       <div className="container">
         {/* Brand */}
         <NavLink className="navbar-brand fw-bold" to="/">
-          Cameron Bakery
+          <img
+            src={logo}
+            alt="Cameron Bakery Logo"
+            style={{
+              height: "55px",
+              width: "auto",
+            }}
+          />
+          {/* Cameron Bakery */}
         </NavLink>
 
         {/* Toggler Button */}

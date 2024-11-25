@@ -15,30 +15,6 @@
   background-color: #975a5e;
 }
 
-.col-image-left {
-  background-image: url("./Images/PublicImages/rosto3.JPG");
-  background-size: cover;
-  background-position: center;
-  height: 25em !important;
-}
-.col-image-right {
-  background-image: url("./Images/PublicImages/boca.JPG");
-  background-size: cover;
-  background-position: center;
-  height: 25em !important;
-}
-.col-image-left2 {
-  background-image: url("./Images/PublicImages/rosto5.JPG");
-  background-size: cover;
-  background-position: center;
-  height: 25em !important;
-}
-
-.lost-image {
-  background-image: url("./Images/PublicImages/images.jpg");
-  height: 25em !important;
-  width: "720";
-}
 .inactiveLink {
   pointer-events: none;
   cursor: default;
