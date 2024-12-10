@@ -27,8 +27,6 @@ export const AboutUs = () => {
               A family-owned bakery with a passion for handcrafted treats and a
               legacy of quality, tradition, and love for the community.
             </p>
-
-            {/* History Section */}
             <div className="row my-5 align-items-center">
               <div className="col-md-6">
                 <img
@@ -48,8 +46,6 @@ export const AboutUs = () => {
                 </p>
               </div>
             </div>
-
-            {/* Mission Section */}
             <div className="row my-5 align-items-center flex-md-row-reverse">
               <div className="col-md-6">
                 <img
@@ -69,8 +65,6 @@ export const AboutUs = () => {
                 </p>
               </div>
             </div>
-
-            {/* Community Section */}
             <div className="row my-5 align-items-center">
               <div className="col-md-6">
                 <img
@@ -90,8 +84,6 @@ export const AboutUs = () => {
                 </p>
               </div>
             </div>
-
-            {/* Signature Creations */}
             <div className="row my-5 align-items-center flex-md-row-reverse">
               <div className="col-md-6">
                 <img

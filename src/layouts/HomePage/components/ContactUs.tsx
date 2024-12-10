@@ -28,7 +28,6 @@ export const ContactUs = () => {
             </p>
 
             <div className="row mt-4">
-              {/* Contact Form */}
               <div className="col-md-6">
                 <form className="bg-white shadow rounded p-4">
                   <div className="mb-3">

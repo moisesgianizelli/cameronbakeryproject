@@ -16,7 +16,6 @@ export const Heros = () => {
       <div className="container text-center">
         <h2 className="fw-bold mb-4">Customer Testimonials</h2>
         <div className="row justify-content-center">
-          {/* Testimonial 1 */}
           <div className="col-md-4 mb-4">
             <div className="p-4 bg-white shadow rounded">
               <FontAwesomeIcon icon={faStar} className="text-warning" />
@@ -31,8 +30,6 @@ export const Heros = () => {
               <h5 className="mt-3 fw-bold">- John D.</h5>
             </div>
           </div>
-
-          {/* Testimonial 2 */}
           <div className="col-md-4 mb-4">
             <div className="p-4 bg-white shadow rounded">
               <FontAwesomeIcon icon={faStar} className="text-warning" />
@@ -47,8 +44,6 @@ export const Heros = () => {
               <h5 className="mt-3 fw-bold">- Sarah L.</h5>
             </div>
           </div>
-
-          {/* Testimonial 3 */}
           <div className="col-md-4 mb-4">
             <div className="p-4 bg-white shadow rounded">
               <FontAwesomeIcon icon={faStar} className="text-warning" />

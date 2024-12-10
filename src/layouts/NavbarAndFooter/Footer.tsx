@@ -16,7 +16,6 @@ export const Footer = () => {
     <div className="footer-container main-color text-white py-5">
       <footer className="container">
         <div className="row">
-          {/* Column 1: About */}
           <div className="col-md-4">
             <h5 className="fw-bold mb-3">About Cameron Bakery</h5>
             <p>
@@ -35,8 +34,6 @@ export const Footer = () => {
               <FontAwesomeIcon icon={faEnvelope} /> cameronbakery@gmail.com
             </p>
           </div>
-
-          {/* Column 2: Navigation */}
           <div className="col-md-4">
             <h5 className="fw-bold mb-3">Quick Links</h5>
             <ul className="list-unstyled">
@@ -68,8 +65,6 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-
-          {/* Column 3: Follow Us */}
           <div className="col-md-4">
             <h5 className="fw-bold mb-3">Follow Us</h5>
             <p>Connect with us on social media:</p>
@@ -102,7 +97,6 @@ export const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Section */}
         <div className="row mt-4 pt-4 border-top border-light">
           <div className="col text-center">
             <p className="mb-0">

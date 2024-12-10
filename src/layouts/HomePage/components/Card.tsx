@@ -14,7 +14,7 @@ const Card: React.FC<CardProps> = ({ title, description, price, imageSrc }) => {
         className="card-img-wrapper"
         style={{
           width: "100%",
-          height: "200px", // Fixed height for all cards
+          height: "200px",
           overflow: "hidden",
         }}
       >

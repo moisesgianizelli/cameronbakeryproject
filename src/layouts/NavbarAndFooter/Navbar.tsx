@@ -23,7 +23,6 @@ export const Navbar = () => {
       }}
     >
       <div className="container">
-        {/* Brand */}
         <NavLink className="navbar-brand fw-bold" to="/">
           <img
             src={logo}
@@ -33,10 +32,7 @@ export const Navbar = () => {
               width: "auto",
             }}
           />
-          {/* Cameron Bakery */}
         </NavLink>
-
-        {/* Toggler Button */}
         <button
           className="navbar-toggler"
           type="button"
@@ -48,8 +44,6 @@ export const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
-        {/* Navbar Links */}
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">

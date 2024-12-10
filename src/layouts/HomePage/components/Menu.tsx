@@ -1,33 +1,31 @@
 import React from "react";
-import Card from "./Card"; // Import the Card component
+import Card from "./Card";
 
-// Define types for product item
 interface MenuItem {
   title: string;
   description: string;
   price: string;
-  imageSrc: string; // Add image source to the product item
+  imageSrc: string;
 }
 
-// Sample product data for each category with images
 const savouryItems: MenuItem[] = [
   {
     title: "Quiche Lorraine",
     description: "A classic savory pie with bacon.",
     price: "€5.99",
-    imageSrc: require("./../../../Images/PublicImages/quiche.jpeg"), // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/quiche.jpeg"),
   },
   {
     title: "Cheese Croissant",
     description: "Buttery, flaky croissant with melted cheese.",
     price: "€3.49",
-    imageSrc: require("./../../../Images/PublicImages/hamcr.jpg"), // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/hamcr.jpg"),
   },
   {
     title: "Chocolat Croissant",
     description: "Buttery, flaky croissant with melted cheese.",
     price: "€3.49",
-    imageSrc: require("./../../../Images/PublicImages/choccr.jpg"), // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/choccr.jpg"),
   },
 ];
 
@@ -36,13 +34,13 @@ const patisserieItems: MenuItem[] = [
     title: "Chocolate Eclair",
     description: "A choux pastry filled with chocolate cream.",
     price: "€4.99",
-    imageSrc: require("./../../../Images/PublicImages/eclair.jpg"), // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/eclair.jpg"),
   },
   {
     title: "Fruit Tart",
     description: "A sweet tart topped with fresh seasonal fruit.",
     price: "€6.99",
-    imageSrc: require("./../../../Images/PublicImages/tart.jpg"), // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/tart.jpg"),
   },
 ];
 
@@ -51,13 +49,13 @@ const boulangerieItems: MenuItem[] = [
     title: "Baguette",
     description: "Classic French baguette with a crunchy crust.",
     price: "€2.49",
-    imageSrc: require("./../../../Images/PublicImages/pulled.jpg"), // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/pulled.jpg"),
   },
   {
     title: "Pain au Chocolat",
     description: "Delicious croissant filled with rich chocolate.",
     price: "€2.99",
-    imageSrc: require("./../../../Images/PublicImages/chocbread.jpg"), // Placeholder image URL
+    imageSrc: require("./../../../Images/PublicImages/chocbread.jpg"),
   },
 ];
 
@@ -94,14 +92,12 @@ export const Menu = () => {
                   title={item.title}
                   description={item.description}
                   price={item.price}
-                  imageSrc={item.imageSrc} // Pass the image source here
+                  imageSrc={item.imageSrc}
                 />
               </div>
             ))}
           </div>
         </section>
-
-        {/* PATISSERIE Section */}
         <section className="menu-section mb-5">
           <h2 className="fw-bold text-uppercase text-brown">PATISSERIE</h2>
           <p className="mb-4">
@@ -115,14 +111,12 @@ export const Menu = () => {
                   title={item.title}
                   description={item.description}
                   price={item.price}
-                  imageSrc={item.imageSrc} // Pass the image source here
+                  imageSrc={item.imageSrc}
                 />
               </div>
             ))}
           </div>
         </section>
-
-        {/* BOULANGERIE Section */}
         <section className="menu-section mb-5">
           <h2 className="fw-bold text-uppercase text-brown">BOULANGERIE</h2>
           <p className="mb-4">
@@ -136,7 +130,7 @@ export const Menu = () => {
                   title={item.title}
                   description={item.description}
                   price={item.price}
-                  imageSrc={item.imageSrc} // Pass the image source here
+                  imageSrc={item.imageSrc}
                 />
               </div>
             ))}
